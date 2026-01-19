@@ -76,7 +76,7 @@ ICONV ŕ r
 
 
 # REP - .
-REP 219
+REP 231
 REP ^pocrtava podcrtava
 REP ^zdrastv zdravstv
 REP nućemo$ nut_ćemo
@@ -117,8 +117,11 @@ REP nuću$ nut_ću
 REP nion nionic
 REP nuće$ nut_će
 REP ^aders adres
+REP prijek prek
+REP ćovije čovje
 REP vežen vezen
 REP ećeš$ et_ćeš
+REP ljanj ljenj
 REP ^pretč predč
 REP tarn ćarnic
 REP šćeš$ st_ćeš
@@ -143,8 +146,10 @@ REP ^trab treb
 REP ^jel$ je_li
 REP bljiv biv
 REP ljiv ljav
+REP vije vje
 REP najs naes
 REP sup sump
+REP kus$ k
 REP ion ijun
 REP zir rizir
 REP aon aonic
@@ -178,6 +183,8 @@ REP rni rnu
 REP rh rth
 REP ljnj nj
 REP mnj mlj
+REP mc mpc
+REP ^ra raz
 REP ^bim$ bih
 REP ^čiž čiz
 REP ini inu
@@ -187,17 +194,21 @@ REP dni$ tni
 REP on onic
 REP mlj mnj
 REP skuj šć
+REP st dst
 REP xy ksi
 REP je ije
 REP ^biš$ bi
 REP and ad
 REP ^sa su
 REP ije je
+REP sik	sink
+REP roj roji
 REP om -om
 REP ći vši
 REP sn stn
 REP ša ška
 REP sm stm
+REP mt mpt
 REP sk stk
 REP rp rpt
 REP st tst
@@ -261,6 +272,7 @@ REP c k
 REP g h
 REP ć č
 REP č ć
+REP tr tor
 REP ^a A
 REP ^b B
 REP ^c C
@@ -298,7 +310,7 @@ REP ^ž Ž
 REP - _
 
 
-AF 416
+AF 417
 AF ZZ	# 1
 AF ZY	# 2
 AF ZX	# 3
@@ -715,6 +727,7 @@ AF SS	# 413
 AF SOSPSR	# 414
 AF SMSNSR	# 415
 AF SL	# 416
+AF SK   # 417
 
 
 SFX XZ Y      21
@@ -2430,7 +2443,7 @@ SFX VP jeći   jekle      jeći
 SFX VP jeći   ijekući    jeći
 
 SFX VO Y      19
-SFX VO 0      a          . 
+SFX VO 0      a          .
 SFX VO 0      u          .
 SFX VO 0      e          .
 SFX VO 0      om         [^čćšj]
@@ -2721,7 +2734,7 @@ SFX VG 0      evima      .
 SFX VG 0      eve        .
 
 SFX VF Y      36
-SFX VF 0      a          . 
+SFX VF 0      a          .
 SFX VF 0      u          .
 SFX VF 0      e          .
 SFX VF 0      om         .
@@ -2916,7 +2929,7 @@ SFX UX 0      evima      .
 SFX UX 0      eve        .
 
 SFX UW Y      7
-SFX UW 0      a          . 
+SFX UW 0      a          .
 SFX UW 0      u          .
 SFX UW 0      e          .
 SFX UW 0      em         .
@@ -2967,7 +2980,7 @@ SFX UR ti     njem       ti
 SFX UR ti     njima      ti
 
 SFX UQ Y      47
-SFX UQ 0      a          . 
+SFX UQ 0      a          .
 SFX UQ 0      u          .
 SFX UQ 0      e          .
 SFX UQ 0      om         .
@@ -3905,3 +3918,14 @@ SFX SL ti ti strti
 SFX SL ti veni strti
 SFX SL ti te strti
 SFX SL ti vene strti
+
+
+#porodiljni
+SFX SK Y 6
+SFX SK i og ljni
+SFX SK i oga ljni
+SFX SK i om ljni
+SFX SK i ome ljni
+SFX SK i omu ljni
+SFX SK 0 m ljni
+

@@ -1,9 +1,9 @@
-SET ISO8859-1
+SET UTF-8
 
-# This is generated from 
+# This is generated from
 # make words.nb; perl -ne 'print join "\n", split //' words.nb | \
 # sort | uniq -c | sort -rn | awk '{print $2}' | tr -d "\n"
-TRY ensrtialkogdmpuvfbjhøyåæcézSwBHAMKTFxGLNRVEODôèCPJIqUWØÅYüZçäQêöòXëÄ
+TRY ensrtialkogdmpuvfbjhÃ¸yÃ¥Ã¦cÃ©zSwBHAMKTFxGLNRVEODÃ´Ã¨CPJIqUWÃ˜Ã…YÃ¼ZÃ§Ã¤QÃªÃ¶Ã²XÃ«Ã„
 
 # These two added by Arno Teigseth 20 oct 2010
 # Due to a bug/feature in hunspell they /must/ appear /before/ the COMPOUNDMIN directive.
@@ -56,7 +56,7 @@ PFX k Y 1
 PFX k   0     under       .
 
 PFX l Y 1
-PFX l   0     på          .
+PFX l   0     pÃ¥          .
 
 PFX m Y 1
 PFX m   0     av          .
@@ -84,10 +84,10 @@ SFX t   e     ing         e
 SFX t   e     ingen       e
 SFX t   e     ingens      e
 SFX t   e     inga        e
-SFX t   0     ing         [aiouyøå]
-SFX t   0     ingen       [aiouyøå]
-SFX t   0     ingens      [aiouyøå]
-SFX t   0     inga        [aiouyøå]
+SFX t   0     ing         [aiouyÃ¸Ã¥]
+SFX t   0     ingen       [aiouyÃ¸Ã¥]
+SFX t   0     ingens      [aiouyÃ¸Ã¥]
+SFX t   0     inga        [aiouyÃ¸Ã¥]
 
 SFX u N 6
 SFX u   0     lig         [^lm]
@@ -101,9 +101,9 @@ SFX v Y 6
 SFX v   0     lse         e
 SFX v   0     lsen        e
 SFX v   0     lsens       e
-SFX v   0     else        [ioå]
-SFX v   0     elsen       [ioå]
-SFX v   0     elsens      [ioå]
+SFX v   0     else        [ioÃ¥]
+SFX v   0     elsen       [ioÃ¥]
+SFX v   0     elsens      [ioÃ¥]
 
 SFX w Y 3
 SFX w   0     het         .
@@ -115,15 +115,15 @@ SFX x   0     skap        [^e]
 SFX x   e     skap        e
 
 SFX y Y 12
-SFX y   0     itet        [aeiouyø][dlmnrsv]
-SFX y   0     iteten      [aeiouyø][dlmnrsv]
-SFX y   0     itetens     [aeiouyø][dlmnrsv]
+SFX y   0     itet        [aeiouyÃ¸][dlmnrsv]
+SFX y   0     iteten      [aeiouyÃ¸][dlmnrsv]
+SFX y   0     itetens     [aeiouyÃ¸][dlmnrsv]
 SFX y   ell   alitet      ell
 SFX y   ell   aliteten    ell
 SFX y   ell   alitetens   ell
-SFX y   ær    aritet      ær
-SFX y   ær    ariteten    ær
-SFX y   ær    aritetens   ær
+SFX y   Ã¦r    aritet      Ã¦r
+SFX y   Ã¦r    ariteten    Ã¦r
+SFX y   Ã¦r    aritetens   Ã¦r
 SFX y   e     ning        e
 SFX y   e     ningen      e
 SFX y   e     ningens     e
@@ -131,20 +131,20 @@ SFX y   e     ningens     e
 SFX A Y 24
 SFX A   0     n           e
 SFX A   0     ns          e
-SFX A   é     een         é
-SFX A   é     eens        é
-SFX A   0     en          [^eém]
-SFX A   0     ens         [^eém]
-SFX A   0     men         [aø]m
-SFX A   0     mens        [aø]m
+SFX A   Ã©     een         Ã©
+SFX A   Ã©     eens        Ã©
+SFX A   0     en          [^eÃ©m]
+SFX A   0     ens         [^eÃ©m]
+SFX A   0     men         [aÃ¸]m
+SFX A   0     mens        [aÃ¸]m
 SFX A   0     men         [^k][lr]em
 SFX A   0     mens        [^k][lr]em
 SFX A   0     en          krem
 SFX A   0     ens         krem
 SFX A   0     en          [^lr]em
 SFX A   0     ens         [^lr]em
-SFX A   0     en          [^aeouø]m
-SFX A   0     ens         [^aeouø]m
+SFX A   0     en          [^aeouÃ¸]m
+SFX A   0     ens         [^aeouÃ¸]m
 SFX A   0     men         [bdglv]om
 SFX A   0     mens        [bdglv]om
 SFX A   0     en          [^bdglv]om
@@ -157,8 +157,8 @@ SFX A   0     ens         [^skl]um
 SFX B Y 36
 SFX B   0     t           e
 SFX B   0     ts          e
-SFX B   é     eet         é
-SFX B   é     eets        é
+SFX B   Ã©     eet         Ã©
+SFX B   Ã©     eets        Ã©
 SFX B   er    ret         [^drt][dt]er
 SFX B   er    rets        [^drt][dt]er
 SFX B   el    let         [fgkpsv]el
@@ -167,8 +167,8 @@ SFX B   del   let         ddel
 SFX B   del   lets        ddel
 SFX B   tel   let         ttel
 SFX B   tel   lets        ttel
-SFX B   0     et          [^eém]
-SFX B   0     ets         [^eém]
+SFX B   0     et          [^eÃ©m]
+SFX B   0     ets         [^eÃ©m]
 SFX B   0     et          [^aeou]m
 SFX B   0     ets         [^aeou]m
 SFX B   0     met         [^e]am
@@ -194,8 +194,8 @@ SFX B   um    ets         [ei]um
 
 SFX C Y 33
 SFX C   e     a           e
-SFX C   é     ea          é
-SFX C   0     a           [^eélmrt]
+SFX C   Ã©     ea          Ã©
+SFX C   0     a           [^eÃ©lmrt]
 SFX C   0     a           [^e]t
 SFX C   et    a           et
 SFX C   0     a           [^e][lr]
@@ -229,8 +229,8 @@ SFX C   um    a           [eir]um
 
 SFX D Y 30
 SFX D   e     as          e
-SFX D   é     eas         é
-SFX D   0     as          [^eélmr]
+SFX D   Ã©     eas         Ã©
+SFX D   0     as          [^eÃ©lmr]
 SFX D   0     as          [^e][lr]
 SFX D   el    las         [^dfkmnpstj]el
 SFX D   0     as          jel
@@ -261,8 +261,8 @@ SFX D   um    as          [ei]um
 
 SFX E Y 36
 SFX E   0     r           e
-SFX E   é     eer         é
-SFX E   0     er          [^eélmr]
+SFX E   Ã©     eer         Ã©
+SFX E   0     er          [^eÃ©lmr]
 SFX E   0     er          [^e][lr]
 SFX E   el    ler         [^dfkmnpstj]el
 SFX E   0     er          jel
@@ -284,13 +284,13 @@ SFX E   er    re          [^fmk]er
 SFX E   fer   re          fer
 SFX E   mer   re          mer
 SFX E   ker   re          ker
-SFX E   0     er          [^aeouø]m
+SFX E   0     er          [^aeouÃ¸]m
 SFX E   0     mer         dlem
 SFX E   0     er          blem
 SFX E   0     er          [^lr]em
 SFX E   0     mer         [^kbd][lr]em
 SFX E   0     er          krem
-SFX E   0     mer         [aø]m
+SFX E   0     mer         [aÃ¸]m
 SFX E   0     mer         [bdgl]om
 SFX E   0     er          [^bdgl]om
 SFX E   0     er          [^eiks]um
@@ -299,8 +299,8 @@ SFX E   um    er          [ei]um
 
 SFX F Y 36
 SFX F   0     rs          e
-SFX F   é     eers        é
-SFX F   0     ers         [^eélmr]
+SFX F   Ã©     eers        Ã©
+SFX F   0     ers         [^eÃ©lmr]
 SFX F   0     ers         [^e][lr]
 SFX F   el    lers        [^dfkmnpstj]el
 SFX F   0     ers         jel
@@ -322,13 +322,13 @@ SFX F   er    res         [^fmk]er
 SFX F   fer   res         fer
 SFX F   mer   res         mer
 SFX F   ker   res         ker
-SFX F   0     ers         [^aeouø]m
+SFX F   0     ers         [^aeouÃ¸]m
 SFX F   0     mers        dlem
 SFX F   0     ers         blem
 SFX F   0     ers         [^lr]em
 SFX F   0     mers        [^kbd][lr]em
 SFX F   0     ers         krem
-SFX F   0     mers        [aø]m
+SFX F   0     mers        [aÃ¸]m
 SFX F   0     mers        [bdgl]om
 SFX F   0     ers         [^bdgl]om
 SFX F   0     ers         [^eiks]um
@@ -337,8 +337,8 @@ SFX F   um    ers         [ei]um
 
 SFX G Y 36
 SFX G   0     ne          e
-SFX G   é     eene        é
-SFX G   0     ene         [^eélmr]
+SFX G   Ã©     eene        Ã©
+SFX G   0     ene         [^eÃ©lmr]
 SFX G   0     ene         [^e][lr]
 SFX G   el    lene        [^dfkmnpstj]el
 SFX G   0     ene         jel
@@ -359,8 +359,8 @@ SFX G   el    lene        [^t]tel
 SFX G   er    rene        [^fm]er
 SFX G   fer   rene        fer
 SFX G   mer   rene        mer
-SFX G   0     ene         [^aeouø]m
-SFX G   0     mene        [aø]m
+SFX G   0     ene         [^aeouÃ¸]m
+SFX G   0     mene        [aÃ¸]m
 SFX G   0     mene        jem
 SFX G   0     mene        dlem
 SFX G   0     ene         blem
@@ -375,8 +375,8 @@ SFX G   um    ene         [ei]um
 
 SFX H Y 36
 SFX H   0     nes         e
-SFX H   é     eenes       é
-SFX H   0     enes        [^eélmr]
+SFX H   Ã©     eenes       Ã©
+SFX H   0     enes        [^eÃ©lmr]
 SFX H   0     enes        [^e][lr]
 SFX H   el    lenes       [^dfkmnpstj]el
 SFX H   0     enes        jel
@@ -397,8 +397,8 @@ SFX H   el    lenes       [^t]tel
 SFX H   er    renes       [^fm]er
 SFX H   fer   renes       fer
 SFX H   mer   renes       mer
-SFX H   0     enes        [^aeouø]m
-SFX H   0     menes       [aø]m
+SFX H   0     enes        [^aeouÃ¸]m
+SFX H   0     menes       [aÃ¸]m
 SFX H   0     menes       jem
 SFX H   0     menes       dlem
 SFX H   0     enes        blem
@@ -416,8 +416,8 @@ SFX I   0     e           er
 SFX I   0     es          er
 SFX I   0     ne          er
 SFX I   0     nes         er
-SFX I   0     ne          [æø]r
-SFX I   0     nes         [æø]r
+SFX I   0     ne          [Ã¦Ã¸]r
+SFX I   0     nes         [Ã¦Ã¸]r
 SFX I   en    nene        en
 SFX I   en    nenes       en
 SFX I   e     ne          ye
@@ -434,13 +434,13 @@ SFX J   0     s           [^s]
 
 SFX K Y 5
 SFX K   0     es          [^er]
-SFX K   e     ær          e
-SFX K   e     ærne        e
+SFX K   e     Ã¦r          e
+SFX K   e     Ã¦rne        e
 SFX K   er    sk          er
 SFX K   er    ske         er
 
 SFX L Y 7
-SFX L   0     r           [aiouyøå]
+SFX L   0     r           [aiouyÃ¸Ã¥]
 SFX L   0     er          er
 SFX L   0     ers         er
 SFX L   0     ene         er
@@ -452,22 +452,22 @@ SFX M Y 30
 SFX M   0     t           e
 SFX M   0     de          e
 SFX M   t     de          et
-SFX M   ok    øker        ok
-SFX M   ok    økene       ok
-SFX M   ok    økenes      ok
-SFX M   or    ødre        or
-SFX M   or    ødrene      or
-SFX M   or    ødrenes     or
+SFX M   ok    Ã¸ker        ok
+SFX M   ok    Ã¸kene       ok
+SFX M   ok    Ã¸kenes      ok
+SFX M   or    Ã¸dre        or
+SFX M   or    Ã¸drene      or
+SFX M   or    Ã¸drenes     or
 SFX M   ar    edre        ar
 SFX M   ar    edrene      ar
 SFX M   ar    edrenes     ar
 SFX M   aft   efter       aft
 SFX M   aft   eftene      aft
 SFX M   aft   eftenes     aft
-SFX M   ot    øter        [bn]ot
-SFX M   ot    øtene       [bn]ot
-SFX M   ot    øtter       [fr]ot
-SFX M   ot    øttene      [fr]ot
+SFX M   ot    Ã¸ter        [bn]ot
+SFX M   ot    Ã¸tene       [bn]ot
+SFX M   ot    Ã¸tter       [fr]ot
+SFX M   ot    Ã¸ttene      [fr]ot
 SFX M   ann   enn         ann
 SFX M   ann   enns        ann
 SFX M   ann   ennene      ann
@@ -477,7 +477,7 @@ SFX M   ang   engene      ang
 SFX M   ang   engenes     ang
 SFX M   er    ene         er
 SFX M   er    enes        er
-SFX M   å     od          å
+SFX M   Ã¥     od          Ã¥
 SFX M   a     ok          ta
 
 SFX N Y 9
@@ -489,22 +489,22 @@ SFX N   er    rer         [^m]er
 SFX N   er    rers        [^m]er
 SFX N   mer   rer         mer
 SFX N   mer   rers        mer
-SFX N   å     o           å
+SFX N   Ã¥     o           Ã¥
 
 SFX O Y 9
 SFX O   e     te          [^t]e
 SFX O   e     t           [^t]e
 SFX O   0     a           atter
-SFX O   atter øtre        atter
-SFX O   atter øtrer       atter
-SFX O   atter øtrene      atter
+SFX O   atter Ã¸tre        atter
+SFX O   atter Ã¸trer       atter
+SFX O   atter Ã¸trene      atter
 SFX O   a     og          a
 SFX O   0     dd          a
 SFX O   0     tt          a
 
 SFX P Y 2
-SFX P   0     dde         [aeiouyøå]
-SFX P   0     dd          [aeiouyøå]
+SFX P   0     dde         [aeiouyÃ¸Ã¥]
+SFX P   0     dd          [aeiouyÃ¸Ã¥]
 
 SFX Q Y 2
 SFX Q   e     de          e
@@ -514,11 +514,11 @@ SFX R Y 4
 SFX R   e     0           [^m]e
 SFX R   e     0           [^m]me
 SFX R   me    0           mme
-SFX R   ere   ér          ere
+SFX R   ere   Ã©r          ere
 
 SFX S Y 2
 SFX S   0     nde         e
-SFX S   0     ende        [aiouyæøå]
+SFX S   0     ende        [aiouyÃ¦Ã¸Ã¥]
 
 SFX T Y 3
 SFX T   0     t           e
@@ -530,9 +530,9 @@ SFX U   t     n           et
 SFX U   et    ne          [^m]et
 SFX U   met   ne          met
 SFX U   ele   al          ele
-SFX U   ele   ålet        ele
-SFX U   øre   orde        øre
-SFX U   øre   ort         øre
+SFX U   ele   Ã¥let        ele
+SFX U   Ã¸re   orde        Ã¸re
+SFX U   Ã¸re   ort         Ã¸re
 SFX U   egge  agt         egge
 SFX U   egge  agte        egge
 SFX U   um    a           um
@@ -551,11 +551,11 @@ SFX V   ken   ne          kken
 SFX V   en    ne          [^k]ken
 SFX V   len   ne          llen
 SFX V   en    ne          [^l]len
-SFX V   0     me          [aeiouø]m
-SFX V   0     e           [^aeiouø]m
+SFX V   0     me          [aeiouÃ¸]m
+SFX V   0     e           [^aeiouÃ¸]m
 
 SFX W Y 13
-SFX W   0     t           [^fklntiaøå]
+SFX W   0     t           [^fklntiaÃ¸Ã¥]
 SFX W   0     t           [^f]f
 SFX W   f     t           ff
 SFX W   0     t           [^k]k
@@ -567,7 +567,7 @@ SFX W   0     t           [^n]n
 SFX W   n     t           nn
 SFX W   0     t           ei
 SFX W   0     tt          [^e]i
-SFX W   0     tt          [aøå]
+SFX W   0     tt          [aÃ¸Ã¥]
 
 SFX X Y 22
 SFX X   0     ere         [^e][^me]
@@ -596,8 +596,8 @@ SFX X   0     meste       [au]m
 SFX Y Y 4
 SFX Y   e     inger       e
 SFX Y   e     ingene      e
-SFX Y   0     inger       [aiouyøå]
-SFX Y   0     ingene      [aiouyøå]
+SFX Y   0     inger       [aiouyÃ¸Ã¥]
+SFX Y   0     ingene      [aiouyÃ¸Ã¥]
 
 SFX Z N 5
 SFX Z   0     elig        [^e]
