@@ -1,4 +1,4 @@
-312735
+312782
 à
 â
 Â
@@ -441,7 +441,54 @@ adc'hounezjon/a0
 adc'hounezoc'h/a0
 adc'hounit/a0
 adc'housperoù/a0
+adc'hra/a0
 adc'hra/d7a0 po:v st:adc'hra #adober
+adc'hrae/a0
+adc'hraec'h/a0
+adc'hraed/a0
+adc'hraemp/a0
+adc'hraen/a0
+adc'hraent/a0
+adc'hraes/a0
+adc'hraet/a0
+adc'hraetañ/a0
+adc'hraetoc'h/a0
+adc'hrafe/a0
+adc'hrafec'h/a0
+adc'hrafed/a0
+adc'hrafemp/a0
+adc'hrafen/a0
+adc'hrafent/a0
+adc'hrafes/a0
+adc'hraimp/a0
+adc'hraint/a0
+adc'hraio/a0
+adc'hraje/a0
+adc'hrajec'h/a0
+adc'hrajed/a0
+adc'hrajemp/a0
+adc'hrajen/a0
+adc'hrajent/a0
+adc'hrajes/a0
+adc'hran/a0
+adc'hray/a0
+adc'hreas/a0
+adc'hreer/a0
+adc'hrejoc'h/a0
+adc'hrejod/a0
+adc'hrejomp/a0
+adc'hrejon/a0
+adc'hrejont/a0
+adc'hrejout/a0
+adc'hreomp/a0
+adc'hreont/a0
+adc'hreor/a0
+adc'hreot/a0
+adc'hrez/a0
+adc'hri/a0
+adc'hrin/a0
+adc'hris/a0
+adc'hrit/a0
 adc'hroñj/a0
 adc'hroñjig/a0
 adc'hroñjigoù/a0
@@ -24856,7 +24903,7 @@ brasbourbellañ
 brasbourbellat
 brasbourbellik
 brasbourbelloc'h
-brasc'hra/m0d7 po:v st:brasc'hra #brazober
+brasc'hra/d7m0 po:v st:brasc'hra #brazober
 Brasília
 brasjedadenn
 brasjedadennig
@@ -137781,7 +137828,7 @@ gwallc'hoantigoù
 gwallc'hoantoù
 gwallc'hoantoùigoù
 gwallchoaz/d1m0 po:v st:gwallchoaz #gwallchoaz
-gwallc'hra/d7m0 po:v st:gwallc'hra #gwallober
+gwallc’hra/d7m0 po:v st:gwallc’hra #gwallober
 gwallc'hraet
 gwall/d1m0 po:v st:gwall #gwallañ
 gwalldaol
@@ -137920,7 +137967,6 @@ gwallnammig
 gwallnammigoù
 gwallnammoù
 gwallnammoùigoù
-gwallober/m0 po:v is:inf st:gwallc'hra
 gwalloberetañ
 gwalloberetoc'h
 gwalloberig
